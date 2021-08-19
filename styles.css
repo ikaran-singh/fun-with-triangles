@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --purple: #ac76db;
+}
+
+body {
+  text-align: center;
+  display: block;
+}
+
+h1 {
+  margin: 2rem 0 0;
+  color: var(--purple);
+}
+
+label {
+  display: block;
+  margin: 2rem 0;
+  font-size: large;
+}
+
+input {
+  display: block;
+  margin: 1rem auto;
+  border: 2px solid var(--purple);
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 350px;
+  padding: 0.3rem;
+  font-size: large;
+}
+
+#is-triangle-btn {
+  display: block;
+  margin: auto;
+  background: transparent;
+  border: none;
+  background-color: var(--purple);
+  color: #fff;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: large;
+}
+
+#output {
+  display: block;
+  margin: 2rem auto;
+  font-size: x-large;
+}
