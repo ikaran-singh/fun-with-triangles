@@ -13,9 +13,18 @@ body {
   display: block;
 }
 
+.question-container {
+  margin: 2rem auto;
+  width: 85%;
+}
+
 h1 {
   margin: 2rem 0 0;
   color: var(--purple);
+}
+
+p {
+  font-size: large;
 }
 
 label {
@@ -35,7 +44,17 @@ input {
   font-size: large;
 }
 
-#is-triangle-btn {
+.question-container label {
+  margin: auto;
+}
+
+.question-container label input {
+  margin: auto;
+  display: inline;
+  width: 5%;
+}
+
+button {
   display: block;
   margin: auto;
   background: transparent;
@@ -51,4 +70,70 @@ input {
   display: block;
   margin: 2rem auto;
   font-size: x-large;
+}
+
+/* Navigation */
+
+.link {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.navigation {
+  background-color: var(--purple);
+  color: white;
+  padding: 1rem;
+  /* padding-right: 1rem; */
+  border-bottom-left-radius: 1rem;
+}
+
+.navigation .link {
+  color: white;
+}
+
+.nav-brand {
+  font-weight: bold;
+  font-size: large;
+  text-align: left;
+}
+
+.nav-pills {
+  text-align: right;
+}
+
+.navigation .active {
+  font-weight: bold;
+}
+
+.margin-md {
+  margin-top: 2rem;
+}
+
+.non-bullet {
+  list-style: none;
+}
+
+.list-inline {
+  display: inline;
+  padding: 0rem 0.5rem;
+}
+
+/* footer */
+
+.footer {
+  padding: 2rem 0rem;
+  background-color: var(--purple);
+  text-align: center;
+  color: white;
+  border-top-right-radius: 1rem;
+}
+.footer .footer-heading {
+  font-size: large;
+  font-weight: bold;
+}
+.footer .link {
+  color: white;
+}
+.footer .non-bullet {
+  padding-inline-start: 0px;
 }
